@@ -1,0 +1,118 @@
+body{
+	background-color: #F6F5F2;
+	color: #433878;
+	font-family: "Gowun Batang", serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+
+h1, h2, h3{
+	font-family: "Gowun Batang", serif;
+
+}
+
+h1{
+
+	color: #674188;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 30px;
+}
+
+h2{
+
+	color: #674188;
+	font-family:Courier;
+	font-weight: Lighter;
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color:#0A2540;
+	font-weight: 960;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+
+}
+
+a:hover{
+	color:yellow;
+
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 900px;
+	margin: 60px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #F0EBE3;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #C8A1E0;
+	color: white;
+	padding: 15px 20px;
+}
+
+.btn-blue:hover {
+	background-color: #7E60BF;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+	
+
+.list-inline i {
+	font-size: 40px;
+	color: #C8A1E0;
+
+}
+
+.list-inline i:hover {
+	color: #7E60BF;
+
+}
+
+.card-white:hover {
+	color: black;
+}
+
+
+/* Design adjustment using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
